@@ -55,48 +55,48 @@ var internsApp = {};
 		}
 		fb.data.createQuestion(path, data, messageHandler);
 	}
-//CREATING PAPERS//
-function fnCreate(){
-uid = $('#thesisIDCreate').val();
-var year = $("#thesisYearCreate").val();
+		//CREATING PAPERS//
+	function fnCreate(){
+		uid = $('#thesisIDCreate').val();
+		var year = $("#thesisYearCreate").val();
 
-if(year == 2017){
-var path='2017/' + uid;
-}
-else if(year == 2018){
-var path='2018/' + uid;
-}
-else if(year == 2019){
-var path='2019/' + uid;
-}
-else if(year == 2020){
-var path='2020/' + uid;
-}
-else if(year == 2021){
-var path='2021/' + uid;
-}
-else if(year == 2022){
-var path='2022/' + uid;
-}
-else {
-var path='2023/' + uid;
-}
-var thesisTitle = $("#thesisTitleCreate").val();
-var name = $("#thesisNameCreate").val();
-var degree = $("#thesisDegreeCreate").val();
-var thesisSupervisor = $("#thesisSupervisorCreate").val();
-var thesisAbstract = $("#thesisAbstractCreate").val();
-var data = {
+		if(year == 2017){
+			var path='2017/' + uid;
+		}
+		else if(year == 2018){
+			var path='2018/' + uid;
+		}
+		else if(year == 2019){
+			var path='2019/' + uid;
+		}
+		else if(year == 2020){
+			var path='2020/' + uid;
+		}
+		else if(year == 2021){
+			var path='2021/' + uid;
+		}
+		else if(year == 2022){
+			var path='2022/' + uid;
+		}
+		else {
+			var path='2023/' + uid;
+		}
+		var thesisTitle = $("#thesisTitleCreate").val();
+		var name = $("#thesisNameCreate").val();
+		var degree = $("#thesisDegreeCreate").val();
+		var thesisSupervisor = $("#thesisSupervisorCreate").val();
+		var thesisAbstract = $("#thesisAbstractCreate").val();
+		var data = {
 
-ThesisTitle: thesisTitle,
-Name: name,
-Degree: degree,
-SupervisorName: thesisSupervisor,
-Year: year,
-AbstractThesis: thesisAbstract
-}
-fb.data.create(path, data, messageHandler);
-}
+			ThesisTitle: thesisTitle,
+			Name: name,
+			Degree: degree,
+			SupervisorName: thesisSupervisor,
+			Year: year,
+			AbstractThesis: thesisAbstract
+		}
+		fb.data.create(path, data, messageHandler);
+	}
 
 //UPDATING TITLE OF PAPER//
 function fnUpdateTitle(){
