@@ -1,218 +1,219 @@
 var internsApp = {};
 
 (function(){
-//var uid = "1";
-/*
-// User is signed in
-uid = user.uid;
-}else{
-// redirect to login page
-uid = null;
-window.location.replace("login.html");
-}
-});
-*/
-function logOut(){
-firebase.auth().signOut();
-}
-function messageHandler(err){
-if(!!err){
-console.log(err)
-}else{
-console.log("success");
-}
-}
-
-//CREATING CONTACT//
-function fnCreateContact(){
-	
-	var fullName = $("#fullName").val();
-	var email = $("#email1").val();
-	var message = $("#textarea1").val();
-	var path='ContactUs/' + 1;
-	var data = {
-
-		FullName: fullName,
-		Email: email,
-		Message: message
+		//var uid = "1";
+		/*
+		// User is signed in
+		uid = user.uid;
+		}else{
+		// redirect to login page
+		uid = null;
+		window.location.replace("login.html");
+		}
+		});
+		*/
+		function logOut(){
+		firebase.auth().signOut();
+		}
+		function messageHandler(err){
+		if(!!err){
+		console.log(err)
+		}else{
+		console.log("success");
+		}
 	}
-	fb.data.createContact(path, data, messageHandler);
-}
 
-//CREATING QUESTION//
-function fnCreateQuestion(){
-	
-	var qqName = $("#qname").val();
-	var qqFeedback = $("#qfeedback").val();
-	var qqEmail = $("#qemail").val();
+	//CREATING CONTACT//
+	function fnCreateContact(){
+		
+		var fullName = $("#fullName").val();
+		var email = $("#email1").val();
+		var message = $("#textarea1").val();
+		var path='ContactUs/' + 1;
+		var data = {
 
-	var path='QuestionSection/' + 1;
-	var data = {
-
-	UserName: qqName,
-	UserFeedback: qqFeedback,
-	UserEmail: qqEmail
+			FullName: fullName,
+			Email: email,
+			Message: message
+		}
+		fb.data.createContact(path, data, messageHandler);
 	}
-	fb.data.createQuestion(path, data, messageHandler);
-}
-//CREATING PAPERS//
-function fnCreate(){
-uid = $('#thesisIDCreate').val();
-var year = $("#thesisYearCreate").val();
 
-if(year == 2017){
-var path='2017/' + uid;
-}
-else if(year == 2018){
-var path='2018/' + uid;
-}
-else if(year == 2019){
-var path='2019/' + uid;
-}
-else if(year == 2020){
-var path='2020/' + uid;
-}
-else if(year == 2021){
-var path='2021/' + uid;
-}
-else if(year == 2022){
-var path='2022/' + uid;
-}
-else {
-var path='2023/' + uid;
-}
-var thesisTitle = $("#thesisTitleCreate").val();
-var name = $("#thesisNameCreate").val();
-var degree = $("#thesisDegreeCreate").val();
-var thesisSupervisor = $("#thesisSupervisorCreate").val();
-var thesisAbstract = $("#thesisAbstractCreate").val();
-var data = {
+	//CREATING QUESTION//
+	function fnCreateQuestion(){
+		
+		var qqName = $("#qname").val();
+		var qqFeedback = $("#qfeedback").val();
+		var qqEmail = $("#qemail").val();
 
-ThesisTitle: thesisTitle,
-Name: name,
-Degree: degree,
-SupervisorName: thesisSupervisor,
-Year: year,
-AbstractThesis: thesisAbstract
-}
-fb.data.create(path, data, messageHandler);
-}
+		var path='QuestionSection/' + 1;
+		var data = {
 
-//UPDATING TITLE OF PAPER//
-function fnUpdateTitle(){
-var uid = $('#thesisIDUpdate').val();
-var year = $('#thesisYearUpdate').val();
+		UserName: qqName,
+		UserFeedback: qqFeedback,
+		UserEmail: qqEmail
+		}
+		fb.data.createQuestion(path, data, messageHandler);
+	}
+	
+	//CREATING PAPERS//
+	function fnCreate(){
+		uid = $('#thesisIDCreate').val();
+		var year = $("#thesisYearCreate").val();
 
-var title = $('#thesisTitleUpdate').val();
+		if(year == 2017){
+			var path='2017/' + uid;
+		}
+		else if(year == 2018){
+			var path='2018/' + uid;
+		}
+		else if(year == 2019){
+			var path='2019/' + uid;
+		}
+		else if(year == 2020){
+			var path='2020/' + uid;
+		}
+		else if(year == 2021){
+			var path='2021/' + uid;
+		}
+		else if(year == 2022){
+			var path='2022/' + uid;
+		}
+		else {
+			var path='2023/' + uid;
+		}
+		var thesisTitle = $("#thesisTitleCreate").val();
+		var name = $("#thesisNameCreate").val();
+		var degree = $("#thesisDegreeCreate").val();
+		var thesisSupervisor = $("#thesisSupervisorCreate").val();
+		var thesisAbstract = $("#thesisAbstractCreate").val();
+		var data = {
 
-var data = {
-ThesisTitle: title,
-}
-if(year == 2008){
-var path='2008/' + uid;
-}
-else if(year == 2009){
-var path='2009/' + uid;
-}
-else if(year == 2010){
-var path='2010/' + uid;
-}
-else if(year == 2011){
-var path='2011/' + uid;
-}
-else if(year == 2012){
-var path='2012/' + uid;
-}
-else if(year == 2013){
-var path='2013/' + uid;
-}
-else if(year == 2015){
-var path='2015/' + uid;
-}
-else if (year == 2016){
-var path='2016/' + uid;
-}
-else if(year == 2017){
-var path='2017/'+uid;
-}
-else if(year == 2018){
-var path='2018/'+uid;
-}
-else if(year == 2019){
-var path='2019/' + uid;
-}
-else if(year == 2020){
-var path='2020/' + uid;
-}
-else if(year == 2021){
-var path='2021/' + uid;
-}
-else if(year == 2022){
-var path='2022/' + uid;
-}
-else {
-var path='2023/' + uid;
-}
-fb.data.updateTitle(path, data, messageHandler);
-}
+			ThesisTitle: thesisTitle,
+			Name: name,
+			Degree: degree,
+			SupervisorName: thesisSupervisor,
+			Year: year,
+			AbstractThesis: thesisAbstract
+		}
+		fb.data.create(path, data, messageHandler);
+	}
 
-//UPDATING NAME OF PAPER//
-function fnUpdateName(){
-var uid = $('#thesisIDUpdate').val();
-var year = $('#thesisYearUpdate').val();
+	//UPDATING TITLE OF PAPER//
+	function fnUpdateTitle(){
+		var uid = $('#thesisIDUpdate').val();
+		var year = $('#thesisYearUpdate').val();
 
-var name = $('#thesisNameUpdate').val();
+		var title = $('#thesisTitleUpdate').val();
 
-var data = {
-Name: name,
-}
-if(year == 2008){
-var path='2008/' + uid;
-}
-else if(year == 2009){
-var path='2009/' + uid;
-}
-else if(year == 2010){
-var path='2010/' + uid;
-}
-else if(year == 2011){
-var path='2011/' + uid;
-}
-else if(year == 2012){
-var path='2012/' + uid;
-}
-else if(year == 2013){
-var path='2013/' + uid;
-}
-else if(year == 2015){
-var path='2015/' + uid;
-}
-else if (year == 2016){
-var path='2016/' + uid;
-}
-else if(year == 2017){
-var path='2017/'+uid;
-}
-else if(year == 2018){
-var path='2018/'+uid;
-}
-else if(year == 2019){
-var path='2019/' + uid;
-}
-else if(year == 2020){
-var path='2020/' + uid;
-}
-else if(year == 2021){
-var path='2021/' + uid;
-}
-else if(year == 2022){
-var path='2022/' + uid;
-}
-else {
-var path='2023/' + uid;
-}
-fb.data.updateName(path, data, messageHandler);
-}
+		var data = {
+			ThesisTitle: title,
+		}
+		if(year == 2008){
+			var path='2008/' + uid;
+		}
+		else if(year == 2009){
+			var path='2009/' + uid;
+		}
+		else if(year == 2010){
+			var path='2010/' + uid;
+		}
+		else if(year == 2011){
+			var path='2011/' + uid;
+		}
+		else if(year == 2012){
+			var path='2012/' + uid;
+		}
+		else if(year == 2013){
+			var path='2013/' + uid;
+		}
+		else if(year == 2015){
+			var path='2015/' + uid;
+		}
+		else if (year == 2016){
+			var path='2016/' + uid;
+		}
+		else if(year == 2017){
+			var path='2017/'+uid;
+		}
+		else if(year == 2018){
+			var path='2018/'+uid;
+		}
+		else if(year == 2019){
+			var path='2019/' + uid;
+		}
+		else if(year == 2020){
+			var path='2020/' + uid;
+		}
+		else if(year == 2021){
+			var path='2021/' + uid;
+		}
+		else if(year == 2022){
+			var path='2022/' + uid;
+		}
+		else {
+			var path='2023/' + uid;
+		}
+			fb.data.updateTitle(path, data, messageHandler);
+	}
+
+	//UPDATING NAME OF PAPER//
+	function fnUpdateName(){
+		var uid = $('#thesisIDUpdate').val();
+		var year = $('#thesisYearUpdate').val();
+
+		var name = $('#thesisNameUpdate').val();
+
+		var data = {
+			Name: name,
+		}
+		if(year == 2008){
+			var path='2008/' + uid;
+		}
+		else if(year == 2009){
+			var path='2009/' + uid;
+		}
+		else if(year == 2010){
+			var path='2010/' + uid;
+		}
+		else if(year == 2011){
+			var path='2011/' + uid;
+		}
+		else if(year == 2012){
+			var path='2012/' + uid;
+		}
+		else if(year == 2013){
+			var path='2013/' + uid;
+		}
+		else if(year == 2015){
+			var path='2015/' + uid;
+		}
+		else if (year == 2016){
+			var path='2016/' + uid;
+		}
+		else if(year == 2017){
+			var path='2017/'+uid;
+		}
+		else if(year == 2018){
+			var path='2018/'+uid;
+		}
+		else if(year == 2019){
+			var path='2019/' + uid;
+		}
+		else if(year == 2020){
+			var path='2020/' + uid;
+		}
+		else if(year == 2021){
+			var path='2021/' + uid;
+		}
+		else if(year == 2022){
+			var path='2022/' + uid;
+		}
+		else {
+			var path='2023/' + uid;
+		}
+			fb.data.updateName(path, data, messageHandler);
+	}
 
 //UPDATING DEGREE OF PAPER//
 function fnUpdateDegree(){
