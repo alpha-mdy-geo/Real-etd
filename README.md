@@ -89,32 +89,34 @@ Introduction<br>
 1.2.3	 Materializecss<br>
                 Materialize CSS is a UI component library which is created with CSS, JavaScript and HTML. It is created and designed by Google. Materialize CSS is also known as Material Design. It is a design language which combines the classic principles of successful design along with innovation and technology. Google's goal is to develop a system of design that allows for a unified user experience across all their products on any platform. It is used to construct attractive, consistent, and functional web pages and web apps while adhering to modern web design principles such as browser portability, device independence, and graceful degradation.
 Important Features of Materialize CSS
-	It is a standard CSS with minimal footprint.
-	In-built Responsive Design
-	It is free to use and requires jQuery JavaScript library to function properly. 
-	It is cross-browser, compatible, and can be used to create reusable web components.
-	It contains enhanced and specialized features such as cards, tabs, navigation bars, toasts etc.
-	It provides new versions of common user interface     controls such as buttons, checkboxes, and text fields adapted to follow Material Design concepts.
+<ul>
+<li>	It is a standard CSS with minimal footprint.</li>
+<li>	In-built Responsive Design</li>
+<li>	It is free to use and requires jQuery JavaScript library to function properly.</li>
+<li>	It is cross-browser, compatible, and can be used to create reusable web components.</li>
+<li>	It contains enhanced and specialized features such as cards, tabs, navigation bars, toasts etc.</li>
+<li>	It provides new versions of common user interface     controls such as buttons, checkboxes, and text fields adapted to follow Material Design concepts.</li>
+</ul>
 
-
-1.2.4	 Material Design Lite (MDL)
+1.2.4	 Material Design Lite (MDL)<br>
 
                 MDL makes it easy to add a material design look and feel to your websites. The “Lite” part of MDL comes from several key design goals: MDL has few dependencies, making it easy to install and use. It is framework-agnostic, meaning MDL can be used with any of the rapidly changing landscape of front-end tool chains. MDL has a low overhead in terms of code size, and a narrow focus — enabling material design styling for websites.
                MDL is a complementary implementation to the Paper elements built with Polymer. The Paper elements are fully encapsulated components that can be used individually or composed together to create a material design-style site, and support more advanced user interaction. That said, MDL can be used alongside the Polymer element counterparts.
 
-1.2.5	 JavaScript (JS)
+1.2.5	 JavaScript (JS)<br>
                     JavaScript is a programming language
 commonly used in web development. It was originally developed by Netscape as a means to add dynamic and interactive elements to websites. JavaScript is a client-side scripting language, which means the source code is processed by the client's web browser rather than on the web server. This means JavaScript functions can run after a webpage has loaded without communicating with the server. For example, a JavaScript function may check a web form before it is submitted to sure all the required fields have been filled out.
  The JavaScript code can produce an error message before any information is actually transmitted to the server.
 Like server-side scripting languages, such as PHP and ASP,      
 JavaScript code can be inserted anywhere within the HTML of a webpage. 
 However, only the output of server-side code is displayed in the HTML, while JavaScript code remains fully visible in the source of the webpage. It can also be referenced in a separate .JS file, which may also be viewed in a browser.
-1.2.6	 System Analysis and Development (SAD)
+
+1.2.6	 System Analysis and Development (SAD)<br>
 
                  To evaluate and design databases; to develop and program systems using web technologies; to carry out technical feasibility studies using criteria based on cost and efficiency to select alternatives; to administer and develop data processing projects; to administer, dimension and maintain computer networks; to work as software engineers; and to work in teaching and research.
 
 
-1.2.7	 UML
+1.2.7	 UML<br>
           Unified Modeling Language (UML) is used as to illustrate the object oriented systems and presentations. UML is a general architectural structure. It is derived from three notations; OMT (Object Modeling Technique). OOD (Object Oriented Design) and OOSE (Object Oriented Software Engineering). UML has a set of connectors and signs to use for drawing the diagrams. These diagrams can represent the business processes and functions from the companies or organizations by using UML. So, we can model the computer code and program by using these diagrams. We can know about the business processes ideas by using UML diagrams in the project.
              In this project, we use Use Case Diagram to describe a set of actions that can perform in collaboration with one or more external users of the system. We use sequence diagram to show object interactions arranged in time sequence.
 
