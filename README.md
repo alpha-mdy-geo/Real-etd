@@ -285,10 +285,7 @@ This application is suitable for students who are exploring project samples and 
 
 •	https://en.wikipedia.org/wiki/real-time
 
-**Appendices**
 
-Appendix A: Flow Chart
 
-Appendix B: Use Case and Sequence Diagram
 
 
