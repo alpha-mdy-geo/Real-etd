@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head><title>README.md</title></head>
+<head></head>
 <body>
 
 A PROJECT REPORT ON
@@ -156,6 +156,7 @@ A real-time database (RTDB) is a data store whose operations execute with predic
 **1.4 Scope of Proposed System**
 
     The proposed project of Electronic Thesis and Dissertations is prescribed as follow:
+
 <ul>
 
    <li>    Manage thesis data, user's feedbacks, user's search</li>
