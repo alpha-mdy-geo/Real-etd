@@ -116,10 +116,12 @@ To evaluate and design databases; to develop and program systems using web techn
 
 
 **1.2.7	 UML**
+
 Unified Modeling Language (UML) is used as to illustrate the object oriented systems and presentations. UML is a general architectural structure. It is derived from three notations; OMT (Object Modeling Technique). OOD (Object Oriented Design) and OOSE (Object Oriented Software Engineering). UML has a set of connectors and signs to use for drawing the diagrams. These diagrams can represent the business processes and functions from the companies or organizations by using UML. So, we can model the computer code and program by using these diagrams. We can know about the business processes ideas by using UML diagrams in the project.
 In this project, we use Use Case Diagram to describe a set of actions that can perform in collaboration with one or more external users of the system. We use sequence diagram to show object interactions arranged in time sequence.
 
 **1.2.8 What is Database?**
+
 A database is a collection of information that is organized so that it can be easily accessed, managed and updated.
 Data is organized into rows, columns and tables, and it is indexed to make it easier to find relevant information. Data gets updated, expanded and deleted as new information is added. Databases process workloads to create and update themselves, querying the data they contain and running application against it.
 Computer database typically contain aggregations of data records or files, such as attendance transactions, attendance percentage and reports.
@@ -127,6 +129,7 @@ Typically, a database manager provides users with the ability to control read/wr
 
 
 **Real-Time Database**
+
 A real-time database (RTDB) is a data store whose operations execute with predictable response, and with application-acceptable levels of logical and temporal consistency of data, in addition to timely execution of transactions with the ACID properties. A real-time database is a database system which uses real-time processing to handle workloads whose state is constantly changing. This differs from traditional databases containing persistent data, mostly unaffected by time. For example, a stock market changes very rapidly and is dynamic.
 
 **1.3 Objectives of the Project**
@@ -149,9 +152,13 @@ A real-time database (RTDB) is a data store whose operations execute with predic
     The proposed project of Electronic Thesis and Dissertations is prescribed as follow:
 
     Manage thesis data, user's feedbacks, user's search
+    
     View thesis data
+    
     Send questions and feedbacks
+    
     View details by authors, year ,title and degree
+    
     Search easily thesis data
 
 
