@@ -1,2 +1,2 @@
 # Real-etd
-ETD
+Electronic Thesis and Disseration ETD
