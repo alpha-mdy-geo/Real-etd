@@ -60,38 +60,7 @@ We declare that this project report or part of it was not a copy of a document d
 
 Project Details
 Project Title 	Electronic Thesis and Dissertation System
-Project ID 	Geo-Mandalar Investment & Technology Internship
-
-
-
-# List of Figures
-
-Figure                                                                                            Page
-Figure (2.1) Project Plan								21
-Figure (3.1) Flowchart Diagram for ETDs					23
-Figure (3.2) Use Case Diagram for ETDs					24
-Figure (3.3) Sequence Diagram for ETDs					25
-Figure (3.4) Home Page of ETDs							26
-Figure (3.5) Admin Sign in Form                                                       27
-Figure (3.6) Admin Choose Form							28
-Figure (3.7) Create New Data Form						29
-Figure (3.8) Browsing By Authors Form					30
-Figure (3.9) Alert Box									31
-Figure (3.10) Browsing By Title Form						32
-Figure (3.11) Latest Form								33
-Figure (3.12) Search By Year Form						34
-Figure (3.13) Search By Year and Author Form				35
-Figure (3.14) Search By Author Form						36
-Figure (3.15) Search By Author and Year Form				37
-Figure (3.16) Search By Degree Form						38
-Figure (3.17) Search By Title Form						39
-Figure (3.18) History Form								40
-Figure (3.19) FAQ Form								41
-Figure (3.20) Skill Form								42
-Figure (3.21) Role and Profile Form						43
-Figure (3.22) Contact Form								44
-
-	
+Project ID 	Geo-Mandalar Investment & Technology Internship	
  
 Chapter 1
 Introduction
