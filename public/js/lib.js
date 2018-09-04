@@ -448,84 +448,86 @@ var internsApp = {};
 		fb.data.updateAbstract(path, data, messageHandler);
 	}
 
-//READING ALL PAPERS FOR DESIRED YEAR//
-function fnRead()
-{   
-  
-var year = $("#thesisYearRead").val();
-//var uid = $("#thesisIDRead").val();
+	//READING ALL PAPERS FOR DESIRED YEAR//
+	function fnRead()
+	{   
+		  
+		var year = $("#thesisYearRead").val();
+		//var uid = $("#thesisIDRead").val();
 
-if(year == 2008){
-var path='2008/' ;
-}
-else if(year == 2009){
-var path='2009/' ;
-}
-else if(year == 2010){
-var path='2010/' ;
-}
-else if(year == 2011){
-var path='2011/' ;
-}
-else if(year == 2012){
-var path='2012/' ;
-}
-else if(year == 2013){
-var path='2013/' ;
-}
-else if(year == 2015){
-var path='2015/' ;
-}
-else if (year ==2016){
-var path='2016/';
-}
-else if(year ==2017){
-var path='2017/';
-}
-else if(year == 2018){
-var path='2018/';
-}
-else if(year == 2019){
-var path='2019/' ;
-}
-else if(year == 2020){
-var path='2020/' ;
-}
-else if(year == 2021){
-var path='2021/' ;
-}
-else if(year == 2022){
-var path='2022/' ;
-}
-else {
-var path='2023/' ;
-}
-fb.data.read(path, successFn, messageHandler);
-function successFn(snapShot){
-if(!snapShot){
-console.log("No data found:");
-}
-else{
-snapShot.forEach(function (childSnapshot){
- $("#hh").show();
-var key = childSnapshot.key;
-var childData = childSnapshot.val();
-var tr = '<tr>' + 
-'<td>' + key + '</td>' +
-'<td>' + childData.ThesisTitle + '</td>' +
-'<td>' + childData.Name + '</td>' +
-'<td>' + childData.Degree + '</td>' +
-'<td>' + childData.SupervisorName + '</td>' +
-'<td>' + childData.Year + '</td>' +
-'<td>' + childData.AbstractThesis + '</td>' +
-  '</tr>';
-$('#lstTable').append(tr);
-console.log(snapShot.val());
+		if(year == 2008){
+			var path='2008/' ;
+		}
+		else if(year == 2009){
+			var path='2009/' ;
+		}
+		else if(year == 2010){
+			var path='2010/' ;
+		}
+		else if(year == 2011){
+			var path='2011/' ;
+		}
+		else if(year == 2012){
+			var path='2012/' ;
+		}
+		else if(year == 2013){
+			var path='2013/' ;
+		}
+		else if(year == 2015){
+			var path='2015/' ;
+		}
+		else if (year ==2016){
+			var path='2016/';
+		}
+		else if(year ==2017){
+			var path='2017/';
+		}
+		else if(year == 2018){
+			var path='2018/';
+		}
+		else if(year == 2019){
+			var path='2019/' ;
+		}
+		else if(year == 2020){
+			var path='2020/' ;
+		}
+		else if(year == 2021){
+			var path='2021/' ;
+		}
+		else if(year == 2022){
+			var path='2022/' ;
+		}
+		else {
+			var path='2023/' ;
+		}
+		
+		fb.data.read(path, successFn, messageHandler);
+		
+		function successFn(snapShot){
+			if(!snapShot){
+				console.log("No data found:");
+			}
+			else{
+				snapShot.forEach(function (childSnapshot){
+					$("#hh").show();
+					var key = childSnapshot.key;
+					var childData = childSnapshot.val();
+					var tr = '<tr>' + 
+								'<td>' + key + '</td>' +
+								'<td>' + childData.ThesisTitle + '</td>' +
+								'<td>' + childData.Name + '</td>' +
+								'<td>' + childData.Degree + '</td>' +
+								'<td>' + childData.SupervisorName + '</td>' +
+								'<td>' + childData.Year + '</td>' +
+								'<td>' + childData.AbstractThesis + '</td>' +
+								  '</tr>';
+					$('#lstTable').append(tr);
+					console.log(snapShot.val());
 
-})
-}
-}
-}
+				})
+			}
+		}
+	}
 
 //READING PAPER FOR DESIRED ID//
 function fnReadID()
