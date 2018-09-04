@@ -157,6 +157,7 @@ A real-time database (RTDB) is a data store whose operations execute with predic
 
     The proposed project of Electronic Thesis and Dissertations is prescribed as follow:
 <ul>
+
    <li>    Manage thesis data, user's feedbacks, user's search</li>
     
    <li>    View thesis data</li>
@@ -208,29 +209,33 @@ We ask staff from Library, how thesis books are assigned in the manual system. W
 We would like to use HTML, Materializecss, Material Design Lite and JavaScript in our project because there are a lot of benefits. Material Design is a design language developed by Google. 
 
 <ul>
-    <li>They can simply code and it can be very easy to develop and can be reformed very quickly.</li>
+   
+   <li>They can simply code and it can be very easy to develop and can be reformed very quickly.</li>
     
-    <li>They are particularly available and have multiple extensions.</li>
+   <li>They are particularly available and have multiple extensions.</li>
     
-    <li>They are very popular so we can find many references and guidelines from the internet.</li>
+   <li>They are very popular so we can find many references and guidelines from the internet.</li>
     
-    <li>They are readily available and easy to access.</li>
+   <li>They are readily available and easy to access.</li>
+
 </ul>    
 
 **Software Requirements**
 <ul>
     
-    <li>Notepad++</li>
-    <li>Firefox</li>
+   <li>Notepad++</li>
+   
+   <li>Firefox</li>
 </ul>
 
 **Hardware Requirements**
 <ul>
-    <li>At least 4.0 of Android OS version Devices (Android phones or tablets)</li>
+   
+   <li>At least 4.0 of Android OS version Devices (Android phones or tablets)</li>
 
-    <li>Internet Access</li>
+   <li>Internet Access</li>
 
-    <li>PC with Windows OS</li>
+   <li>PC with Windows OS</li>
 </ul>
 
 **2.3 Project Plan**
@@ -255,22 +260,22 @@ Thus, Electronic Thesis and Dissertations will not only a great way for users bu
 
 The proposed system offers the following advantages:
 <ul>
-    <li>To be accessible from anywhere at any time.</li>
+   <li>To be accessible from anywhere at any time.</li>
     
-    <li>To learn about electronic document preparation and digital libraries.</li>
+   <li>To learn about electronic document preparation and digital libraries.</li>
     
-    <li>To access multiple users simultaneously at one ETD.</li>
+   <li>To access multiple users simultaneously at one ETD.</li>
     
-    <li>To reduce storage space in libraries.</li>
+   <li>To reduce storage space in libraries.</li>
     
-    <li>To search easily and save time.</li>
+   <li>To search easily and save time.</li>
 </ul>
 
 **3.3 Disadvantages of the project**
 <ul>
-    <li>The cost of computer hardware and software programs can be expensive.</li>
+   <li>The cost of computer hardware and software programs can be expensive.</li>
     
-    <li>As mobile tables use wireless network, they can disconnect with network if Wi-Fi fails.</li>
+   <li>As mobile tables use wireless network, they can disconnect with network if Wi-Fi fails.</li>
 </ul>
        
 
