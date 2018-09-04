@@ -155,7 +155,7 @@ A real-time database (RTDB) is a data store whose operations execute with predic
 
 **1.4 Scope of Proposed System**
 
-    The proposed project of Electronic Thesis and Dissertations is prescribed as follow:
+The proposed project of Electronic Thesis and Dissertations is prescribed as follow:
 
 <ul>
 
