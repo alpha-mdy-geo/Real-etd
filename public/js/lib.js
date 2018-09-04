@@ -587,7 +587,7 @@ var internsApp = {};
 				$("#internNameResult").html(snapShot.val().Name);
 				$("#internDegreeResult").html(snapShot.val().Degree);
 				$("#internSupervisorResult").html(snapShot.val().SupervisorName);
-				$("#internYearResult").html(snapShot.val().Year);
+				$("#internYearResult").html(year);
 				$("#internAbstractResult").html(snapShot.val().AbstractThesis);
 				
 			}
