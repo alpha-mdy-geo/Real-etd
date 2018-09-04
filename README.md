@@ -141,17 +141,18 @@ A real-time database (RTDB) is a data store whose operations execute with predic
 
 <ul>
 
-    <li>To develop Electronic Thesis and Dissertations System</li>
+  <li>To develop Electronic Thesis and Dissertations System</li>
 
-    <li>To be accessible from anywhere at any time</li>
+  <li>To be accessible from anywhere at any time</li>
 
-    <li>To learn about electronic document preparation and digital libraries</li>
+  <li>To learn about electronic document preparation and digital libraries</li>
 
-    <li>To access multiple users simultaneously at one Electronic Thesis and Dissertations</li>
+  <li>To access multiple users simultaneously at one Electronic Thesis and Dissertations</li>
 
-    <li>To search easily and save time</li>
+  <li>To search easily and save time</li>
 
 </ul>
+
 **1.4 Scope of Proposed System**
 
     The proposed project of Electronic Thesis and Dissertations is prescribed as follow:
