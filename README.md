@@ -153,36 +153,41 @@ METHDOLOGY
 
 2.1 Requirement Analysis</br>
          The description of the services and constraints are the requirements for the system. Requirement Analysis is the process of deriving the system requirements through observation of existing system. We get all information of data we use in this project from our library.
-      Group Interview
+      Group Interview<br>
                Interview is the most common technique for collecting                  required information. Group interview is same as the one-to-one interview but more than one person at the same role can be involved in Group Interview. We go to libraries and meet all staff to make group interview. We discuss with them; what they need and how they are operating the trading process with clients in manual system. We ask them open-ended question to get requirements and then ask probing question for uncovering requirements.
-Questionnaire
+Questionnaire<br>
                  Questionnaire is one the information gathering techniques and it is informal technique. We use this technique to gather required information about staff from Library. We have some questions to ask about thesis and we have not enough time to interview with each staff to collect requirements, so we use questionnaire tool.
-Follow People Around
+Follow People Around<br>
              We cannot understand about make assign to staff at the Library. So we need to watch how they can be assigned schedule for repair thesis books. Someday, we also participate in the actual work process to get complete understanding about the staff assign at the library.
-Evidence of Requirements Analysis
+Evidence of Requirements Analysis<br>
                 In analysis requirements from Library, we made use information gathering tools to collect required data. These gathering tools are Group Interview, Questionnaire and Follow People Around. I will represent evidences during analyzing requirements data for developing project.
-Evidence form Group Interview
+Evidence form Group Interview<br>
                We make group interview with staff from Library. We discuss about normal thesis in manual system. In the interview, we ask them what they need for the new computerized system and take a note to make requirement lists of different perspectives from each staff. The following sheet will represent requirement list.
 
-Evidence form Questionnaire
+Evidence form Questionnaire<br>
                   We ask staff from Library, how thesis books are assigned in the manual system. We ask them the staff’s assign process with a few questions and write down the paper. We also request staff data entry form as a requirement of staff registration. This helps us to develop the system design easily. The following papers will show how staff can be assigned.
  
-2.2 Software Selection
-Chosen Programming Language
+2.2 Software Selection<br>
+Chosen Programming Language<br>
      We would like to use HTML, Materializecss, Material Design Lite and JavaScript in our project because there are a lot of benefits. Material Design is a design language developed by Google. 
-	They can simply code and it can be very easy to develop and can be reformed very quickly.
-	They are particularly available and have multiple extensions.
-	They are very popular so we can find many references and guidelines from the internet.
-	They are readily available and easy to access.
+<ul>
+<li>    They can simply code and it can be very easy to develop and can be reformed very quickly.</li>
+<li>	They are particularly available and have multiple extensions.</li>
+<li>	They are very popular so we can find many references and guidelines from the internet.</li>
+<li>	They are readily available and easy to access.</li>
+</ul>
+Software Requirements<br>
+<ul>
+<li>    Notepad++</li>
+<li>	Firefox</li>
+</ul>
 
-Software Requirements
-	Notepad++
-	Firefox
-Hardware Requirements
-	At least 4.0 of Android OS version Devices (Android phones or tablets)
-	Internet Access
-	PC with Windows OS
- 
+Hardware Requirements<br>
+<ul>
+<li>	At least 4.0 of Android OS version Devices (Android phones or tablets)</li>
+<li>	Internet Access</li>
+<li>	PC with Windows OS</li>
+</ul>
 
 2.3 Project Plan
  
