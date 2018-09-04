@@ -120,7 +120,7 @@ function ok(){
 				
 				if(year_text==name){
 					$("th").show();
-					$("#tt").append("<tr><td class='col s12 l2'>"+name+"</td><td class='col s12 l2'>"+title+"</td><td class='col s12 l2'>"+degree+"</td><td class='col s12 l4'>"+abstractT+"</td><td class='col s12 l2'><a href='https://drive.google.com/file/d/1KCUBsGLIRr_rDXgDGvIxf9mmDM896lhr/view'>"+pdf+".pdf"+"</a></td></tr>");
+					$("#tt").append("<tr><td class='col s12 l2'>"+name+"</td><td class='col s12 l3'>"+title+"</td><td class='col s12 l2'>"+degree+"</td><td class='col s12 l3'>"+abstractT+"</td><td class='col s12 l2'><a href='https://drive.google.com/file/d/1KCUBsGLIRr_rDXgDGvIxf9mmDM896lhr/view'>"+pdf+".pdf"+"</a></td></tr>");
 				}
 				}); // snap FIRST
 				}// for child

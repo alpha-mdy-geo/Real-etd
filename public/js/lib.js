@@ -1,5 +1,4 @@
 var internsApp = {};
-
 (function(){
 	//var uid = "1";
 		/*
@@ -55,8 +54,8 @@ var internsApp = {};
 	}
 	//	CREATING PAPERS	//
 	function fnCreate(){
-		uid = $('#thesisIDCreate').val();
-		var year = $("#thesisYearCreate").val();
+		var uid = $("#thesisIDCreate").val();
+		var year =$("#thesisYearCreate").val();
 		
 		if(year == 2017){
 			var path='2017/' + uid;
