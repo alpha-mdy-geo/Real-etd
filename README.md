@@ -151,10 +151,12 @@ Real-Time Database<br>
 CHAPTER 2<br>
 METHDOLOGY
 
-2.1 Requirement Analysis</br>
+2.1 Requirement Analysis<br>
          The description of the services and constraints are the requirements for the system. Requirement Analysis is the process of deriving the system requirements through observation of existing system. We get all information of data we use in this project from our library.
-      Group Interview<br>
-               Interview is the most common technique for collecting                  required information. Group interview is same as the one-to-one interview but more than one person at the same role can be involved in Group Interview. We go to libraries and meet all staff to make group interview. We discuss with them; what they need and how they are operating the trading process with clients in manual system. We ask them open-ended question to get requirements and then ask probing question for uncovering requirements.
+ <br>     
+      Group Interview <br>
+               Interview is the most common technique for collecting required information. Group interview is same as the one-to-one interview but more than one person at the same role can be involved in Group Interview. We go to libraries and meet all staff to make group interview. We discuss with them; what they need and how they are operating the trading process with clients in manual system. We ask them open-ended question to get requirements and then ask probing question for uncovering requirements.
+<br>
 Questionnaire<br>
                  Questionnaire is one the information gathering techniques and it is informal technique. We use this technique to gather required information about staff from Library. We have some questions to ask about thesis and we have not enough time to interview with each staff to collect requirements, so we use questionnaire tool.
 Follow People Around<br>
