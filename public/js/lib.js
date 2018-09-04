@@ -1,60 +1,60 @@
 var internsApp = {};
 
 (function(){
-//var uid = "1";
-/*
-// User is signed in
-uid = user.uid;
-}else{
-// redirect to login page
-uid = null;
-window.location.replace("login.html");
-}
-});
-*/
-function logOut(){
-firebase.auth().signOut();
-}
-function messageHandler(err){
-if(!!err){
-console.log(err)
-}else{
-console.log("success");
-}
-}
-
-//CREATING CONTACT//
-function fnCreateContact(){
-	
-	var fullName = $("#fullName").val();
-	var email = $("#email1").val();
-	var message = $("#textarea1").val();
-	var path='ContactUs/' + 1;
-	var data = {
-
-		FullName: fullName,
-		Email: email,
-		Message: message
+		//var uid = "1";
+		/*
+		// User is signed in
+		uid = user.uid;
+		}else{
+		// redirect to login page
+		uid = null;
+		window.location.replace("login.html");
+		}
+		});
+		*/
+		function logOut(){
+		firebase.auth().signOut();
+		}
+		function messageHandler(err){
+		if(!!err){
+		console.log(err)
+		}else{
+		console.log("success");
+		}
 	}
-	fb.data.createContact(path, data, messageHandler);
-}
 
-//CREATING QUESTION//
-function fnCreateQuestion(){
-	
-	var qqName = $("#qname").val();
-	var qqFeedback = $("#qfeedback").val();
-	var qqEmail = $("#qemail").val();
+	//CREATING CONTACT//
+	function fnCreateContact(){
+		
+		var fullName = $("#fullName").val();
+		var email = $("#email1").val();
+		var message = $("#textarea1").val();
+		var path='ContactUs/' + 1;
+		var data = {
 
-	var path='QuestionSection/' + 1;
-	var data = {
-
-	UserName: qqName,
-	UserFeedback: qqFeedback,
-	UserEmail: qqEmail
+			FullName: fullName,
+			Email: email,
+			Message: message
+		}
+		fb.data.createContact(path, data, messageHandler);
 	}
-	fb.data.createQuestion(path, data, messageHandler);
-}
+
+	//CREATING QUESTION//
+	function fnCreateQuestion(){
+		
+		var qqName = $("#qname").val();
+		var qqFeedback = $("#qfeedback").val();
+		var qqEmail = $("#qemail").val();
+
+		var path='QuestionSection/' + 1;
+		var data = {
+
+		UserName: qqName,
+		UserFeedback: qqFeedback,
+		UserEmail: qqEmail
+		}
+		fb.data.createQuestion(path, data, messageHandler);
+	}
 //CREATING PAPERS//
 function fnCreate(){
 uid = $('#thesisIDCreate').val();
