@@ -51,13 +51,14 @@ Then also thanks to Mr. Ravi Chhabra , CEO of GMIT, for his trust to give us suc
 
 We especially thanks to our parents and all our friends for providing encouragement and giving us a great support during internship programme.
 
-DECLARTATION
+**DECLARTATION**
 
 We declare that this project report or part of it was not a copy of a document done by any organization, university any other institute or a previous student project group at University of Computer Studies (Mandalay) and was not copied from the Internet or other sources.
 
 Project Details
-Project Title Electronic Thesis and Dissertation System
-Project ID Geo-Mandalar Investment & Technology Internship
+
+Project Title  Electronic Thesis and Dissertation System
+Project ID     Geo-Mandalar Investment & Technology Internship
 
 Chapter 1<br>
 Introduction<br>
