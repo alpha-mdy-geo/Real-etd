@@ -164,217 +164,110 @@ A real-time database (RTDB) is a data store whose operations execute with predic
     Search easily thesis data
 
 
-CHAPTER 2<br>
-METHDOLOGY
+**CHAPTER 2**
 
-2.1 Requirement Analysis<br>
-         The description of the services and constraints are the requirements for the system. Requirement Analysis is the process of deriving the system requirements through observation of existing system. We get all information of data we use in this project from our library.
- <br>     
-Group Interview<br>
-               Interview is the most common technique for collecting required information. Group interview is same as the one-to-one interview but more than one person at the same role can be involved in Group Interview. We go to libraries and meet all staff to make group interview. We discuss with them; what they need and how they are operating the trading process with clients in manual system. We ask them open-ended question to get requirements and then ask probing question for uncovering requirements.
+**METHDOLOGY**
 
-Questionnaire<br>
-                 Questionnaire is one the information gathering techniques and it is informal technique. We use this technique to gather required information about staff from Library. We have some questions to ask about thesis and we have not enough time to interview with each staff to collect requirements, so we use questionnaire tool.
+**2.1 Requirement Analysis**
 
-Follow People Around<br>
-             We cannot understand about make assign to staff at the Library. So we need to watch how they can be assigned schedule for repair thesis books. Someday, we also participate in the actual work process to get complete understanding about the staff assign at the library.
+The description of the services and constraints are the requirements for the system. Requirement Analysis is the process of deriving the system requirements through observation of existing system. We get all information of data we use in this project from our library.
+     
+**Group Interview**
 
-Evidence of Requirements Analysis<br>
-                In analysis requirements from Library, we made use information gathering tools to collect required data. These gathering tools are Group Interview, Questionnaire and Follow People Around. I will represent evidences during analyzing requirements data for developing project.
+Interview is the most common technique for collecting required information. Group interview is same as the one-to-one interview but more than one person at the same role can be involved in Group Interview. We go to libraries and meet all staff to make group interview. We discuss with them; what they need and how they are operating the trading process with clients in manual system. We ask them open-ended question to get requirements and then ask probing question for uncovering requirements.
 
-Evidence form Group Interview<br>
-               We make group interview with staff from Library. We discuss about normal thesis in manual system. In the interview, we ask them what they need for the new computerized system and take a note to make requirement lists of different perspectives from each staff. The following sheet will represent requirement list.
+**Questionnaire**
 
-Evidence form Questionnaire<br>
-                  We ask staff from Library, how thesis books are assigned in the manual system. We ask them the staff’s assign process with a few questions and write down the paper. We also request staff data entry form as a requirement of staff registration. This helps us to develop the system design easily. The following papers will show how staff can be assigned.
+Questionnaire is one the information gathering techniques and it is informal technique. We use this technique to gather required information about staff from Library. We have some questions to ask about thesis and we have not enough time to interview with each staff to collect requirements, so we use questionnaire tool.
+
+**Follow People Around**
+
+We cannot understand about make assign to staff at the Library. So we need to watch how they can be assigned schedule for repair thesis books. Someday, we also participate in the actual work process to get complete understanding about the staff assign at the library.
+
+**Evidence of Requirements Analysis**
+
+In analysis requirements from Library, we made use information gathering tools to collect required data. These gathering tools are Group Interview, Questionnaire and Follow People Around. I will represent evidences during analyzing requirements data for developing project.
+
+**Evidence form Group Interview**
+
+We make group interview with staff from Library. We discuss about normal thesis in manual system. In the interview, we ask them what they need for the new computerized system and take a note to make requirement lists of different perspectives from each staff. The following sheet will represent requirement list.
+
+**Evidence form Questionnaire**
+
+We ask staff from Library, how thesis books are assigned in the manual system. We ask them the staff’s assign process with a few questions and write down the paper. We also request staff data entry form as a requirement of staff registration. This helps us to develop the system design easily. The following papers will show how staff can be assigned.
  
-2.2 Software Selection<br>
-Chosen Programming Language<br>
-     We would like to use HTML, Materializecss, Material Design Lite and JavaScript in our project because there are a lot of benefits. Material Design is a design language developed by Google. 
-<ul>
-<li>    They can simply code and it can be very easy to develop and can be reformed very quickly.</li>
-<li>	They are particularly available and have multiple extensions.</li>
-<li>	They are very popular so we can find many references and guidelines from the internet.</li>
-<li>	They are readily available and easy to access.</li>
-</ul>
-Software Requirements<br>
-<ul>
-<li>    Notepad++</li>
-<li>	Firefox</li>
-</ul>
+**2.2 Software Selection**
 
-Hardware Requirements<br>
-<ul>
-<li>	At least 4.0 of Android OS version Devices (Android phones or tablets)</li>
-<li>	Internet Access</li>
-<li>	PC with Windows OS</li>
-</ul>
+**Chosen Programming Language**
 
-2.3 Project Plan
- 
-                              Figure 2.1 Project Plan
+We would like to use HTML, Materializecss, Material Design Lite and JavaScript in our project because there are a lot of benefits. Material Design is a design language developed by Google. 
 
-            In understanding the system requirements and testing some features, we work together. GUI/Database Analysis and Design, we work together. User Access Level/Access to pages, Project Manager and System Analysis are discussed about the system to understand the user.
-                     Recording all transaction in DB, Database Administrator recorded in database tables and assigned primary key and foreign key. Generating reports, Developers generated our system and wrote the coding. Module Testing, we work together.
-                Integration, we work together. Integrated System Testing, we work together. Project Fulfillment Assessment Preparation, we work together, Extra Feature and Final Testing, we work together. 
-CHAPTER 3
-PROJECT DEVELOPMENT
-3.1 Design
-3.1.1 Flowchart Diagram
- 
-Figure 3.1 Flowchart Diagram for ETDs
-3.1.2 Use Case Diagram
-
- 
-
-Figure 3.2 Use Case Diagram for ETDs
-
-3.1.3 Sequence Diagram
-
- 
-
-Figure 3.3 Sequence Diagram for ETDs
- 
-3.1.4 Electronic Thesis and Dissertations System Function
- 
-
- 
-
-Figure 3.4 Home Page of ETDs
-        In this system, there are two main stakeholders such as admin and users. 
-        First, users who use this system as administrator must create admin account in database and choose their account and sign in with password.
- 
- 
-Figure 3.5 Admin Sign in Form
-        After this, the admin must setup respective data and can create, update, delete or retrieve data associated with thesis.
-
- 
-
-Figure 3.6 Admin Choose Form
-
- 
-        For example, admins must setup the following form if they want    to create new data.
- 
- 
-
-Figure 3.7 Create New Data Form
- 
-        As the users, there are four main functions for searching. First, when author function is clicked, users need to write author’s name in search box and click submit button. Then, users can see like the following figure associated with thesis data that is users want to know.
- 
- 
-
-Figure 3.8 Browsing by Authors Form
- 
-           In the author function, the system will remind with alert box if users entered wrong input (not author name).
-
- 
-
-                              Figure 3.9 Alert Box 
- 
-           Second, when title function is clicked, users need to write title in search box and click submit button. Then, users can see like the following figure associated with thesis data that is users want to know.
-
- 
- 
-Figure 3.10 Browsing by Title
-           Third, users can search by clicking search button. There are many functions for searching such as author name, year, title or degree. If users click search button, search box is dropped. Users can view thesis data (like the following figure) that they want to view if they entered author name or year or title or degree (as they like).
-
- 
-
-Figure 3.12 Search By Year Form
- 
-           In latest function, users can see latest thesis with author’s name, year and title.
-
-
- 
-                        
-
-Figure 3.11 Latest Form
-
- 
-
-Figure 3.13 Search By Year and Author Form
- 
-
- 
-
-Figure 3.14 Search By Author Form
- 
- 
-
-Figure 3.15 Search By Author and Year Form
- 
- 
+    They can simply code and it can be very easy to develop and can be reformed very quickly.
     
-Figure 3.16 Search By Degree Form
+    They are particularly available and have multiple extensions.
+    
+    They are very popular so we can find many references and guidelines from the internet.
+    
+    They are readily available and easy to access.
 
- 
-                      
+**Software Requirements**
 
-Figure 3.17 Search By Title Form
- 
-            If users want to know about our university, they can view detail the history of our university if they click history button in footer. And users can view brief history and main purposes of the university, location, current rector and list of principal officers of UCS (Mdy) predecessors.
+    
+    Notepad++
+    Firefox
 
+**Hardware Requirements**
+
+    At least 4.0 of Android OS version Devices (Android phones or tablets)
+
+    Internet Access
+
+    PC with Windows OS
+
+
+**2.3 Project Plan**
  
 
-Figure 3.18 History Form
- 
-            In FAQ button, there are many questions and answers about thesis that are the most common questions and answers associated with thesis. If users want to comment their opinion and ask some questions, they can send email to us.
- 
- 
-
-Figure 3.19 FAQ Form
-           If users clicked the skill button, they can view the following figure. This figure shows our skills and practice during internship.
-
- 
-
-Figure 3.20 Skill Form
+In understanding the system requirements and testing some features, we work together. GUI/Database Analysis and Design, we work together. User Access Level/Access to pages, Project Manager and System Analysis are discussed about the system to understand the user.
+Recording all transaction in DB, Database Administrator recorded in database tables and assigned primary key and foreign key. Generating reports, Developers generated our system and wrote the coding. Module Testing, we work together.
+Integration, we work together. Integrated System Testing, we work together. Project Fulfillment Assessment Preparation, we work together, Extra Feature and Final Testing, we work together. 
 
 
+**CHAPTER 3**
 
-        In about button, users can view the profiles of students who developed Electronic Thesis and Dissertation System. They have different roles such as Team Lead, UI/UX Lead, UI/UX Dev, Dev1, Dev2, Lead Developer + DevOps, Test and Documentation.
- 
- 
-Figure 3.21 Role and Profile Form 
-           If users have any questions and want to know more information about thesis, they can contact as below the following figure.
-  
+**EVALUATION AND CONCLUSION**
 
-Figure 3.22 Contact Form
+**3.1 Conclusion**
+The system provides simple and complete functions for admin without necessarily change all patterns when there is some change. Beyond our purpose, the system may provide the easiest searching way for users.
+Users do not need to go library for search data and they can save time. Moreover, the system can be accessible from anywhere at any time if users have internet connection and mobile phone or tablet.
+Thus, Electronic Thesis and Dissertations will not only a great way for users but also one of the useful mobile and tablet applications in mobile and tablet application world.
 
-3.2 Implementation
-                 Before using this system, the installations on git bash are required to implement this system .“npm install –g firebase tools” is needed to install for database of our system. After that our information is entried into the database using setup form from the program. Then, the system can be implemented easily.  
+**3.2 Advantages of the Project**
+The proposed system offers the following advantages:
 
+    To be accessible from anywhere at any time.
+    
+    To learn about electronic document preparation and digital libraries.
+    
+    To access multiple users simultaneously at one ETD.
+    
+    To reduce storage space in libraries.
+    
+    To search easily and save time.
 
+**3.3 Disadvantages of the project**
 
-CHAPTER 4<br>
-EVALUATION AND CONCLUSION<br>
+    The cost of computer hardware and software programs can be expensive.
+    
+    As mobile tables use wireless network, they can disconnect with network if Wi-Fi fails.
+       
 
-4.1 Conclusion<br>
-           The system provides simple and complete functions for admin without necessarily change all patterns when there is some change. Beyond our purpose, the system may provide the easiest searching way for users.
-             Users do not need to go library for search data and they can save time. Moreover, the system can be accessible from anywhere at any time if users have internet connection and mobile phone or tablet.
-             Thus, Electronic Thesis and Dissertations will not only a great way for users but also one of the useful mobile and tablet applications in mobile and tablet application world.
+**3.4 Further Extensions**
 
-4.2 Advantages of the Project
-        The proposed system offers the following advantages:
-<ul>
-<li>	To be accessible from anywhere at any time.<li>
-<li>	To learn about electronic document preparation and digital libraries.<li>
-<li>	To access multiple users simultaneously at one ETD.<li>
-<li>	To reduce storage space in libraries.<li>
-<li>	To search easily and save time.<li>
-<ul>
-
-4.3 Disadvantages of the project
-<ul>
-<li>	The cost of computer hardware and software programs can be expensive.</li>
-<li>	As mobile tables use wireless network, they can disconnect with network if Wi-Fi fails.</li>
-</ul>
-
-4.4 Further Extensions
-
-            This application is suitable for students who are exploring project samples and trying to finish their research. This application has incompleteness from various view-points. But if it is continuously developed with experts, current needs will be covered shortly, then the effectiveness will approve its property. Various functionalities can be embedded within the application, if completely added those functions, the current goal of the app will be wide enough to take place of current ETD system.
+This application is suitable for students who are exploring project samples and trying to finish their research. This application has incompleteness from various view-points. But if it is continuously developed with experts, current needs will be covered shortly, then the effectiveness will approve its property. Various functionalities can be embedded within the application, if completely added those functions, the current goal of the app will be wide enough to take place of current ETD system.
 
 	
-References
+**References**
 
 •	Thesis Books from Computer University Library
 •	www.cumandalay.edu.mm
@@ -384,12 +277,10 @@ References
 •	https://www.makeuseof.com
 •	https://en.wikipedia.org/wiki/real-time
 
-Appendices
+**Appendices
 
-Appendix A: Flow Chart<br>
+Appendix A: Flow Chart
+
 Appendix B: Use Case and Sequence Diagram
 
 
-		 
-</body>
-</html>
