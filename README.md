@@ -59,13 +59,14 @@ We declare that this project report or part of it was not a copy of a document d
 Project Details
 
 Project Title  Electronic Thesis and Dissertation System
+
 Project ID     Geo-Mandalar Investment & Technology Internship
 
 
-Chapter 1<br>
-Introduction<br>
+**Chapter 1**
+**Introduction**
 
-1.1	Introduction<br>
+**1.1	Introduction**
                 Nowadays, Mobile phones are very useful for everyone to communicate with each other. So, they are becoming an important part of our everyday life. Nowadays, reducing the men’s physical effort with the help of latest devices and technologies is on demand. The project provides us the complete and accurate information about thesis.
                 The project named “Electronic Thesis and Dissertations System” is aimed to search easily thesis data. The project is developed for window side and mobile phones. Our project mainly focuses on basic operations like inserting new data, updating or deleting existing data, view thesis data and so on. This project has many advantages that to reduce users wait times, accessible from anywhere at any time and do not need storage space in libraries.
                   This project has the lists of titles, authors, year and degree on the website to find collections of thesis. Each collection has a short description to help users decide which one to use.
@@ -73,20 +74,22 @@ Introduction<br>
 
 
 
-1.2	Background of the System<br>
- 1.2.1 Evaluation of the literature relevant to the project area
+**1.2	Background of the System**
+**1.2.1 Evaluation of the literature relevant to the project area**
 
          We have to consider about the method, approach, programming language and tools in developing the project. Methodology will be used as I structure the project plan; it will represent how the project will be processed. Thus we structure the project’s framework, we need to consider about the project development. In the project area, we can use HTML, Materializecss, Material Design Lite, JavaScript, Real-Time database of firebase and SAD. We must use UML technique to propose the business processes in the project area; we can define the process notations by using UML diagrams. In order to code the program, we can use many computer languages.
 
-   1.2.2 HTML<br>
+**1.2.2 HTML**
      HTML is a computer language devised to allow website creation. These websites can then be viewed by anyone else connected to the Internet. It is relatively easy to learn, with the basics being accessible to most people in one sitting; and quite powerful in what it allows you to create.
-              The definition of HTML is HyperText Markup Language.                                               
-	HyperText is the method by which you move around on the web — by clicking on special text called hyperlinks which bring you to the next page. The fact that it is hyper just means it is not linear — i.e. you can go to any place on the Internet whenever you want by clicking on links — there is no set order to do things in.
-	Markup is what HTML tags do to the text inside them. They mark it as a certain type of text (italicised text, for example).
-	HTML is a Language, as it has code-words and syntax like any other language.
+              The definition of HTML is **HyperText Markup Language.                                              **
+
+    HyperText is the method by which you move around on the web — by clicking on special text called hyperlinks which bring you to the next page. The fact that it is hyper just means it is not linear — i.e. you can go to any place on the Internet whenever you want by clicking on links — there is no set order to do things in.
+    Markup is what HTML tags do to the text inside them. They mark it as a certain type of text (italicised text, for example).
+    HTML is a Language, as it has code-words and syntax like any other language.
 
 
-1.2.3	 Materializecss<br>
+
+1.2.3	 Materializecss
                 Materialize CSS is a UI component library which is created with CSS, JavaScript and HTML. It is created and designed by Google. Materialize CSS is also known as Material Design. It is a design language which combines the classic principles of successful design along with innovation and technology. Google's goal is to develop a system of design that allows for a unified user experience across all their products on any platform. It is used to construct attractive, consistent, and functional web pages and web apps while adhering to modern web design principles such as browser portability, device independence, and graceful degradation.
 Important Features of Materialize CSS
 <ul>
