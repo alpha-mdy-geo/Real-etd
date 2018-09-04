@@ -273,63 +273,63 @@ var internsApp = {};
 		fb.data.updateDegree(path, data, messageHandler);
 	}
 
-//UPDATING SUPERVISOR OF PAPER//
-function fnUpdateSupervisor(){
-var uid = $('#thesisIDUpdate').val();
-var year = $('#thesisYearUpdate').val();
+	//UPDATING SUPERVISOR OF PAPER//
+		function fnUpdateSupervisor(){
+		var uid = $('#thesisIDUpdate').val();
+		var year = $('#thesisYearUpdate').val();
 
-var supervisor = $('#thesisSupervisorUpdate').val();
+		var supervisor = $('#thesisSupervisorUpdate').val();
 
-var data = {
-SupervisorName: supervisor,
-}
-if(year == 2008){
-var path='2008/' + uid;
-}
-else if(year == 2009){
-var path='2009/' + uid;
-}
-else if(year == 2010){
-var path='2010/' + uid;
-}
-else if(year == 2011){
-var path='2011/' + uid;
-}
-else if(year == 2012){
-var path='2012/' + uid;
-}
-else if(year == 2013){
-var path='2013/' + uid;
-}
-else if(year == 2015){
-var path='2015/' + uid;
-}
-else if (year ==2016){
-var path='2016/' + uid;
-}
-else if(year == 2017){
-var path='2017/'+uid;
-}
-else if(year === 2018){
-var path='2018/'+uid;
-}
-else if(year == 2019){
-var path='2019/' + uid;
-}
-else if(year == 2020){
-var path='2020/' + uid;
-}
-else if(year == 2021){
-var path='2021/' + uid;
-}
-else if(year == 2022){
-var path='2022/' + uid;
-}
-else {
-var path='2023/' + uid;
-}
-fb.data.updateSupervisor(path, data, messageHandler);
-}
+		var data = {
+			SupervisorName: supervisor,
+		}
+		if(year == 2008){
+			var path='2008/' + uid;
+		}
+		else if(year == 2009){
+			var path='2009/' + uid;
+		}
+		else if(year == 2010){
+			var path='2010/' + uid;
+		}
+		else if(year == 2011){
+			var path='2011/' + uid;
+		}
+		else if(year == 2012){
+			var path='2012/' + uid;
+		}
+		else if(year == 2013){
+			var path='2013/' + uid;
+		}
+		else if(year == 2015){
+			var path='2015/' + uid;
+		}
+		else if (year ==2016){
+			var path='2016/' + uid;
+		}
+		else if(year == 2017){
+			var path='2017/'+uid;
+		}
+		else if(year === 2018){
+			var path='2018/'+uid;
+		}
+		else if(year == 2019){
+			var path='2019/' + uid;
+		}
+		else if(year == 2020){
+			var path='2020/' + uid;
+		}
+		else if(year == 2021){
+			var path='2021/' + uid;
+		}
+		else if(year == 2022){
+			var path='2022/' + uid;
+		}
+		else {
+			var path='2023/' + uid;
+		}
+		fb.data.updateSupervisor(path, data, messageHandler);
+	}
 
 //UPDATING MONTH&YEAR OF PAPER//
 function fnUpdateYear(){
