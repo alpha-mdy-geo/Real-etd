@@ -61,11 +61,11 @@ We declare that this project report or part of it was not a copy of a document d
 Project Details
 Project Title 	Electronic Thesis and Dissertation System
 Project ID 	Geo-Mandalar Investment & Technology Internship	
- 
-Chapter 1
-Introduction
+<br>
+Chapter 1<br>
+Introduction<br>
 
-1.1	Introduction
+1.1	Introduction<br>
                 Nowadays, Mobile phones are very useful for everyone to communicate with each other. So, they are becoming an important part of our everyday life. Nowadays, reducing the men’s physical effort with the help of latest devices and technologies is on demand. The project provides us the complete and accurate information about thesis.
                 The project named “Electronic Thesis and Dissertations System” is aimed to search easily thesis data. The project is developed for window side and mobile phones. Our project mainly focuses on basic operations like inserting new data, updating or deleting existing data, view thesis data and so on. This project has many advantages that to reduce users wait times, accessible from anywhere at any time and do not need storage space in libraries.
                   This project has the lists of titles, authors, year and degree on the website to find collections of thesis. Each collection has a short description to help users decide which one to use.
