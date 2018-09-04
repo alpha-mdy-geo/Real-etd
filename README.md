@@ -120,36 +120,38 @@ However, only the output of server-side code is displayed in the HTML, while Jav
           Unified Modeling Language (UML) is used as to illustrate the object oriented systems and presentations. UML is a general architectural structure. It is derived from three notations; OMT (Object Modeling Technique). OOD (Object Oriented Design) and OOSE (Object Oriented Software Engineering). UML has a set of connectors and signs to use for drawing the diagrams. These diagrams can represent the business processes and functions from the companies or organizations by using UML. So, we can model the computer code and program by using these diagrams. We can know about the business processes ideas by using UML diagrams in the project.
              In this project, we use Use Case Diagram to describe a set of actions that can perform in collaboration with one or more external users of the system. We use sequence diagram to show object interactions arranged in time sequence.
 
-1.2.8 What is Database?
+1.2.8 What is Database?<br>
           A database is a collection of information that is organized so that it can be easily accessed, managed and updated.
           Data is organized into rows, columns and tables, and it is indexed to make it easier to find relevant information. Data gets updated, expanded and deleted as new information is added. Databases process workloads to create and update themselves, querying the data they contain and running application against it.
           Computer database typically contain aggregations of data records or files, such as attendance transactions, attendance percentage and reports.
            Typically, a database manager provides users with the ability to control read/write access, specify report generation and analyze usage. Some databases offer ACID (atomicity, consistency, isolation, durability) compliance to guarantee that data is consistent and that transactions are complete.
 
 
-Real-Time Database
+Real-Time Database<br>
             A real-time database (RTDB) is a data store whose operations execute with predictable response, and with application-acceptable levels of logical and temporal consistency of data, in addition to timely execution of transactions with the ACID properties. A real-time database is a database system which uses real-time processing to handle workloads whose state is constantly changing. This differs from traditional databases containing persistent data, mostly unaffected by time. For example, a stock market changes very rapidly and is dynamic.
 
 1.3 Objectives of the Project
-	To develop Electronic Thesis and Dissertations System
-	To be accessible from anywhere at any time.
-	To learn about electronic document preparation and digital libraries.
-	To access multiple users simultaneously at one Electronic Thesis and Dissertations.
-	To search easily and save time.
+<ul>
+<li>    To develop Electronic Thesis and Dissertations System</li>
+<li>	To be accessible from anywhere at any time.</li>
+<li>	To learn about electronic document preparation and digital libraries.</li>
+<li>	To access multiple users simultaneously at one Electronic Thesis and Dissertations.</li>
+<li>	To search easily and save time.</li>
+</ul>
 
-1.4 Scope of Proposed System
+1.4 Scope of Proposed System<br>
     The proposed project of Electronic Thesis and Dissertations is prescribed as follow:
-
-	Manage thesis data, user’s feedbacks, user’s search
-	View thesis data
-	Send questions and feedbacks
-	View details by authors, year ,title and degree
-	Search easily thesis data
- 
-CHAPTER 2
+<ul>
+<li>	Manage thesis data, user’s feedbacks, user’s search</li>
+<li>	View thesis data</li>
+<li>	Send questions and feedbacks</li>
+<li>	View details by authors, year ,title and degree</li>
+<li>	Search easily thesis data</li>
+</ul>
+CHAPTER 2<br>
 METHDOLOGY
 
-2.1 Requirement Analysis
+2.1 Requirement Analysis</br>
          The description of the services and constraints are the requirements for the system. Requirement Analysis is the process of deriving the system requirements through observation of existing system. We get all information of data we use in this project from our library.
       Group Interview
                Interview is the most common technique for collecting                  required information. Group interview is same as the one-to-one interview but more than one person at the same role can be involved in Group Interview. We go to libraries and meet all staff to make group interview. We discuss with them; what they need and how they are operating the trading process with clients in manual system. We ask them open-ended question to get requirements and then ask probing question for uncovering requirements.
