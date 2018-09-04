@@ -41,7 +41,7 @@ This project will present how to search thesis data and suggestions via online. 
 
 **ACKNOWLEDGEMENT**
 
-** ** We would like to express our very great appreciation to our Rector U Kyaw Swar Soe , for his kind permission to send us internship Program. Then, we would like to express any special thanks to Dr. Daw** San San Tint , Pro-Rector, for her helpful recommendations and suggestions. And then our teacher Dr. Daw Khaing Moe San, Associate Professor ,** forher valuable and constructive suggestions during the planning and development of this project. They willingness to give their time so generously has been very much appreciated. Advice given by other academic lectures has been a great help in building the software solution.
+ We would like to express our very great appreciation to our Rector U Kyaw Swar Soe , for his kind permission to send us internship Program. Then, we would like to express any special thanks to Dr. Daw** San San Tint , Pro-Rector, for her helpful recommendations and suggestions. And then our teacher Dr. Daw Khaing Moe San, Associate Professor ,** forher valuable and constructive suggestions during the planning and development of this project. They willingness to give their time so generously has been very much appreciated. Advice given by other academic lectures has been a great help in building the software solution.
 
        Also we obliged to staff members of University of Computer Studies (Mandalay) for the valuable information provided by them in their respective fields. We are grateful for their cooperation during the period of developing the system. Assistance provided infinity software development crew was greatly appreciated. Their contribution was worth a lot, in making this development a reality.
 
