@@ -1,2 +1,2 @@
 # Real-etd
-Electronic Thesis Disseration Repository
+Electronic Thesis and Disseration ETD
