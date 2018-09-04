@@ -31,7 +31,7 @@ Dr.Khaing Moe San
     Ma Yun Me Me Thaw
     Ma Ei Cho Zin
 
-** **** University of Computer Studies (Mandalay)**
+University of Computer Studies (Mandalay)
 
 Abstract
 
