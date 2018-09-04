@@ -159,10 +159,13 @@ METHDOLOGY
 <br>
 Questionnaire<br>
                  Questionnaire is one the information gathering techniques and it is informal technique. We use this technique to gather required information about staff from Library. We have some questions to ask about thesis and we have not enough time to interview with each staff to collect requirements, so we use questionnaire tool.
+<br>
 Follow People Around<br>
              We cannot understand about make assign to staff at the Library. So we need to watch how they can be assigned schedule for repair thesis books. Someday, we also participate in the actual work process to get complete understanding about the staff assign at the library.
+<br>
 Evidence of Requirements Analysis<br>
                 In analysis requirements from Library, we made use information gathering tools to collect required data. These gathering tools are Group Interview, Questionnaire and Follow People Around. I will represent evidences during analyzing requirements data for developing project.
+<br>
 Evidence form Group Interview<br>
                We make group interview with staff from Library. We discuss about normal thesis in manual system. In the interview, we ask them what they need for the new computerized system and take a note to make requirement lists of different perspectives from each staff. The following sheet will represent requirement list.
 
