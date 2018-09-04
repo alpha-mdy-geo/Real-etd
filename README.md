@@ -154,7 +154,7 @@ METHDOLOGY
 2.1 Requirement Analysis<br>
          The description of the services and constraints are the requirements for the system. Requirement Analysis is the process of deriving the system requirements through observation of existing system. We get all information of data we use in this project from our library.
  <br>     
-      Group Interview 
+Group Interview<br>
                Interview is the most common technique for collecting required information. Group interview is same as the one-to-one interview but more than one person at the same role can be involved in Group Interview. We go to libraries and meet all staff to make group interview. We discuss with them; what they need and how they are operating the trading process with clients in manual system. We ask them open-ended question to get requirements and then ask probing question for uncovering requirements.
 
 Questionnaire<br>
@@ -329,31 +329,37 @@ Figure 3.22 Contact Form
 
 
 
-CHAPTER 4
-EVALUATION AND CONCLUSION
+CHAPTER 4<br>
+EVALUATION AND CONCLUSION<br>
 
-4.1 Conclusion
+4.1 Conclusion<br>
            The system provides simple and complete functions for admin without necessarily change all patterns when there is some change. Beyond our purpose, the system may provide the easiest searching way for users.
              Users do not need to go library for search data and they can save time. Moreover, the system can be accessible from anywhere at any time if users have internet connection and mobile phone or tablet.
              Thus, Electronic Thesis and Dissertations will not only a great way for users but also one of the useful mobile and tablet applications in mobile and tablet application world.
+
 4.2 Advantages of the Project
         The proposed system offers the following advantages:
-	 To be accessible from anywhere at any time.
-	To learn about electronic document preparation and digital libraries.
-	To access multiple users simultaneously at one ETD.
-	To reduce storage space in libraries.
-	To search easily and save time.
+<ul>
+<li>	To be accessible from anywhere at any time.<li>
+<li>	To learn about electronic document preparation and digital libraries.<li>
+<li>	To access multiple users simultaneously at one ETD.<li>
+<li>	To reduce storage space in libraries.<li>
+<li>	To search easily and save time.<li>
+<ul>
 
 4.3 Disadvantages of the project
-	The cost of computer hardware and software programs can be expensive.
-	As mobile tables use wireless network, they can disconnect with network if Wi-Fi fails.
-
+<ul>
+<li>	The cost of computer hardware and software programs can be expensive.</li>
+<li>	As mobile tables use wireless network, they can disconnect with network if Wi-Fi fails.</li>
+</ul>
 
 4.4 Further Extensions
+
             This application is suitable for students who are exploring project samples and trying to finish their research. This application has incompleteness from various view-points. But if it is continuously developed with experts, current needs will be covered shortly, then the effectiveness will approve its property. Various functionalities can be embedded within the application, if completely added those functions, the current goal of the app will be wide enough to take place of current ETD system.
 
 	
 References
+
 •	Thesis Books from Computer University Library
 •	www.cumandalay.edu.mm
 •	https://en.wikipedia.org/wiki/HTML
@@ -363,6 +369,7 @@ References
 •	https://en.wikipedia.org/wiki/real-time
 
 Appendices
+
 Appendix A: Flow Chart
 Appendix B: Use Case and Sequence Diagram
 
