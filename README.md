@@ -238,11 +238,13 @@ Integration, we work together. Integrated System Testing, we work together. Proj
 **EVALUATION AND CONCLUSION**
 
 **3.1 Conclusion**
+
 The system provides simple and complete functions for admin without necessarily change all patterns when there is some change. Beyond our purpose, the system may provide the easiest searching way for users.
 Users do not need to go library for search data and they can save time. Moreover, the system can be accessible from anywhere at any time if users have internet connection and mobile phone or tablet.
 Thus, Electronic Thesis and Dissertations will not only a great way for users but also one of the useful mobile and tablet applications in mobile and tablet application world.
 
 **3.2 Advantages of the Project**
+
 The proposed system offers the following advantages:
 
     To be accessible from anywhere at any time.
@@ -270,14 +272,20 @@ This application is suitable for students who are exploring project samples and 
 **References**
 
 •	Thesis Books from Computer University Library
+
 •	www.cumandalay.edu.mm
+
 •	https://en.wikipedia.org/wiki/HTML
+
 •	https://www.javatpoint.com/what-is-materialize-css
+
 •	https://getmdl.io/
+
 •	https://www.makeuseof.com
+
 •	https://en.wikipedia.org/wiki/real-time
 
-**Appendices
+**Appendices**
 
 Appendix A: Flow Chart
 
