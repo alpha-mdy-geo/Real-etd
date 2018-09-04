@@ -1,6 +1,6 @@
 A PROJECT REPORT ON
 
-"Electronic Thesis and Dissertation"
+# Electronic Thesis and Dissertation
 
 FOR
 
@@ -20,9 +20,9 @@ Mr. Ravi Chhabra
 
 Supervisor
 
-Dr. Daw Khaing Moe San
+Dr.Khaing Moe San
 
-** SUMITTED BY**
+# SUBMITTED BY
 
     Ma Ei Mon Theint
     Ma Khaing Nyo Thein
