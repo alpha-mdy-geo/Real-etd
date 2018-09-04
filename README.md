@@ -1,4 +1,7 @@
-
+<!DOCTYPE html>
+<html>
+<head><title>README.md</title></head>
+<body>
 
 A PROJECT REPORT ON
 
@@ -86,12 +89,12 @@ We have to consider about the method, approach, programming language and tools i
 
 HTML is a computer language devised to allow website creation. These websites can then be viewed by anyone else connected to the Internet. It is relatively easy to learn, with the basics being accessible to most people in one sitting; and quite powerful in what it allows you to create.
               The definition of HTML is **HyperText Markup Language.**
+<ul>
+<li>HyperText is the method by which you move around on the web — by clicking on special text called hyperlinks which bring you to the next page. The fact that it is hyper just means it is not linear — i.e. you can go to any place on the Internet whenever you want by clicking on links — there is no set order to do things in.</li>
 
-HyperText is the method by which you move around on the web — by clicking on special text called hyperlinks which bring you to the next page. The fact that it is hyper just means it is not linear — i.e. you can go to any place on the Internet whenever you want by clicking on links — there is no set order to do things in.
+<li>Markup is what HTML tags do to the text inside them. They mark it as a certain type of text (italicised text, for example).</li>
 
-Markup is what HTML tags do to the text inside them. They mark it as a certain type of text (italicised text, for example).
-
-HTML is a Language, as it has code-words and syntax like any other language.
+<li>HTML is a Language, as it has code-words and syntax like any other language.</li>
 
 
 
@@ -136,33 +139,34 @@ A real-time database (RTDB) is a data store whose operations execute with predic
 
 **1.3 Objectives of the Project**
 
+<ul>
 
+    <li>To develop Electronic Thesis and Dissertations System</li>
 
-    To develop Electronic Thesis and Dissertations System
+    <li>To be accessible from anywhere at any time</li>
 
-    To be accessible from anywhere at any time
+    <li>To learn about electronic document preparation and digital libraries</li>
 
-    To learn about electronic document preparation and digital libraries
+    <li>To access multiple users simultaneously at one Electronic Thesis and Dissertations</li>
 
-    To access multiple users simultaneously at one Electronic Thesis and Dissertations
+    <li>To search easily and save time</li>
 
-    To search easily and save time
-
-
+</ul>
 **1.4 Scope of Proposed System**
 
     The proposed project of Electronic Thesis and Dissertations is prescribed as follow:
+<ul>
+   <li>    Manage thesis data, user's feedbacks, user's search</li>
+    
+   <li>    View thesis data</li>
+    
+   <li>    Send questions and feedbacks</li>
+    
+   <li>    View details by authors, year ,title and degree</li>
+    
+   <li>    Search easily thesis data</li>
 
-    Manage thesis data, user's feedbacks, user's search
-    
-    View thesis data
-    
-    Send questions and feedbacks
-    
-    View details by authors, year ,title and degree
-    
-    Search easily thesis data
-
+</ul>
 
 **CHAPTER 2**
 
@@ -202,28 +206,31 @@ We ask staff from Library, how thesis books are assigned in the manual system. W
 
 We would like to use HTML, Materializecss, Material Design Lite and JavaScript in our project because there are a lot of benefits. Material Design is a design language developed by Google. 
 
-    They can simply code and it can be very easy to develop and can be reformed very quickly.
+<ul>
+    <li>They can simply code and it can be very easy to develop and can be reformed very quickly.</li>
     
-    They are particularly available and have multiple extensions.
+    <li>They are particularly available and have multiple extensions.</li>
     
-    They are very popular so we can find many references and guidelines from the internet.
+    <li>They are very popular so we can find many references and guidelines from the internet.</li>
     
-    They are readily available and easy to access.
+    <li>They are readily available and easy to access.</li>
+</ul>    
 
 **Software Requirements**
-
+<ul>
     
-    Notepad++
-    Firefox
+    <li>Notepad++</li>
+    <li>Firefox</li>
+</ul>
 
 **Hardware Requirements**
+<ul>
+    <li>At least 4.0 of Android OS version Devices (Android phones or tablets)</li>
 
-    At least 4.0 of Android OS version Devices (Android phones or tablets)
+    <li>Internet Access</li>
 
-    Internet Access
-
-    PC with Windows OS
-
+    <li>PC with Windows OS</li>
+</ul>
 
 **2.3 Project Plan**
  
@@ -246,22 +253,24 @@ Thus, Electronic Thesis and Dissertations will not only a great way for users bu
 **3.2 Advantages of the Project**
 
 The proposed system offers the following advantages:
-
-    To be accessible from anywhere at any time.
+<ul>
+    <li>To be accessible from anywhere at any time.</li>
     
-    To learn about electronic document preparation and digital libraries.
+    <li>To learn about electronic document preparation and digital libraries.</li>
     
-    To access multiple users simultaneously at one ETD.
+    <li>To access multiple users simultaneously at one ETD.</li>
     
-    To reduce storage space in libraries.
+    <li>To reduce storage space in libraries.</li>
     
-    To search easily and save time.
+    <li>To search easily and save time.</li>
+</ul>
 
 **3.3 Disadvantages of the project**
-
-    The cost of computer hardware and software programs can be expensive.
+<ul>
+    <li>The cost of computer hardware and software programs can be expensive.</li>
     
-    As mobile tables use wireless network, they can disconnect with network if Wi-Fi fails.
+    <li>As mobile tables use wireless network, they can disconnect with network if Wi-Fi fails.</li>
+</ul>
        
 
 **3.4 Further Extensions**
@@ -284,7 +293,8 @@ This application is suitable for students who are exploring project samples and 
 •	https://www.makeuseof.com
 
 •	https://en.wikipedia.org/wiki/real-time
-
+</body>
+</html>
 
 
 
